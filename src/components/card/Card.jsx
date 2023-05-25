@@ -1,9 +1,11 @@
-
+import style from './Card.module.css'
 export const Card = ({title, body}) => {
   return (
     <div>
         <h3>{title}</h3>
-        <div>{body}</div>
+        <div className={style.box}>
+          {body}
+          </div>
     </div>
   )
 }
