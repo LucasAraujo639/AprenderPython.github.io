@@ -1,0 +1,17 @@
+.container{
+    max-width: 517px;
+  
+    box-sizing: border-box;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+  
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    
+    align-items: center;
+  
+    margin: 0 auto;
+  }

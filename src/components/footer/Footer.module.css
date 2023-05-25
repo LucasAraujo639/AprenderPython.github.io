@@ -1,0 +1,38 @@
+.container-footer{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.container{
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+.container:before, .container::after {
+    border-top: 2px solid #765167;
+    content: "";
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+  }
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+}
+
+.img{
+    width: 50px;
+    height: 50px;
+}
